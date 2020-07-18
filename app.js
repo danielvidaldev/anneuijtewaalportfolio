@@ -29,16 +29,3 @@ $(document).ready(function(){
         }
     });
 });
-
-function submitUserForm() {
-    const response = grecaptcha.getResponse();
-    if(response.length == 0) {
-        $('#g-recaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
-        return false;
-    }
-    return true;
-}
- 
-function verifyCaptcha() {
-    $('#g-recaptcha-error').innerHTML = '';
-}
