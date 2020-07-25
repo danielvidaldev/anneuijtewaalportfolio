@@ -12,7 +12,7 @@ body {
 
 hr {
     color: #222;
-    width: 300px;
+    width: 230px;
     margin-top: 0;
 }
 
@@ -121,15 +121,17 @@ img {
     text-align: center;
 }
 
-#about h4 {
+#about h5 {
     text-align: justify;
 }
 
-.jumbotron {
-    border-radius: 9px;
+#contact {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
-#contact h2 {
+#contact h3, #about h3 {
     text-align: center;
 }
 
@@ -139,8 +141,13 @@ img {
 
 footer {
     text-align: center;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 1rem;
-    background-color: rgb(230, 231, 237);
+    background-color: rgb(250, 250, 247);
+    border-radius: 8px;
+    width: 500px;
 }
 
 .status {
