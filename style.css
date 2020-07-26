@@ -6,8 +6,8 @@ body {
 
 #home {
     box-shadow: none;
-    width: 350px;
-    height: 150px;
+    width: 250px;
+    height: 100px;
 }
 
 hr {
@@ -70,14 +70,14 @@ img {
 	transform: scale(1.01);
 }
 
-.galleryItem h3 {
+.galleryItem h4 {
     color: rgb(78, 82, 82);
     -webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	opacity: 0;
 }
 
-.galleryItem:hover h3 {
+.galleryItem:hover h4 {
     bottom: -36px;
     opacity: 1;
 }
