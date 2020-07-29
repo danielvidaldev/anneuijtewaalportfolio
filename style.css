@@ -185,10 +185,13 @@ footer a {
     margin-left: 0;
 }
 
-@media (max-width: 992px) {
-    .modal-dialog {
-        display: table;
-        max-width: 100%;
-        max-height: 100%;
-    }
+.modal.show {
+    display: flex !important;
+    justify-content: center;
+}
+
+.modal-caption {
+    max-width: 100%;
+    max-height: 100%;
+    align-self: center;
 }
