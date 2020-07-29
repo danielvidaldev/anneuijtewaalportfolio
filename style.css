@@ -114,7 +114,6 @@ img {
   
 .modal-content {
     margin: 0 auto;
-    max-width: 100%;
 }
 
 .carousel-item img {
@@ -130,8 +129,8 @@ img {
 }
 
 @media (max-width: 992px) {
-    .modal-dialog {
-        padding: 1em;
+    .modal {
+        margin-right: 2em;
     }
 }
 
