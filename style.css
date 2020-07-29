@@ -34,8 +34,8 @@ hr {
 
 @media (max-width: 992px) {
     #galleryContainer {
-        padding-right: 1em;
-        padding-left: 1em;
+        padding-right: 0em;
+        padding-left: 0em;
     }
 }
 
@@ -127,7 +127,7 @@ hr {
 @media (max-width: 992px) {
     .modal-content {
         width: 20em !important;
-        height: 17em !important;
+        height: 28em !important;
         max-width: 100%; 
         max-height: 80%;
     }
@@ -196,4 +196,8 @@ footer a {
 
 .modal-header hr {
     margin-left: 0;
+}
+
+.modal {
+    padding: 0;
 }
