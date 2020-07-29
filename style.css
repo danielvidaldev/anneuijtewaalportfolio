@@ -124,7 +124,7 @@ hr {
 
 @media (max-width: 992px) {
     .carousel-item img {
-        width: 28em !important;
+        width: 23em !important;
         height: 17em !important;
         max-height: 100%;
         max-width: 100%;
@@ -134,7 +134,7 @@ hr {
 
 @media (max-width: 992px) {
     .modal-content {
-        width: 30em !important;
+        width: 25em !important;
         height: 28em !important;
         max-width: 100%; 
         max-height: 80%;
