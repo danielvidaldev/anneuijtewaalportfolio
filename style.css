@@ -108,20 +108,16 @@ hr {
     display: flex;
     align-items: center;
 }
-  
-.modal-content {
-    margin: 0 auto;
-}
 
 .carousel-item img {
     object-fit: contain;
-    height: 35em;
+    height: 40em;
 }
 
 @media (max-width: 992px) {
     .carousel-item img {
-        max-height: 20em !important;
-        max-width: 15em !important;
+        max-height: 28em !important;
+        max-width: 25em !important;
         object-fit: cover;
     }
 }
