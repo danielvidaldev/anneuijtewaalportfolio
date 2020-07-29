@@ -105,7 +105,6 @@ hr {
 
 .modal-dialog {
     height: 100%;
-    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -121,13 +120,8 @@ hr {
 
 @media (max-width: 992px) {
     .carousel-item img {
-        height: 23em !important;
-        width: 20em !important;
+        height: 22em !important;
     }
-}
-
-.modal-open {
-    overflow-y: auto;
 }
 
 #about {
