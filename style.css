@@ -198,6 +198,14 @@ footer a {
     margin-left: 0;
 }
 
+.show {
+    padding-right: 0 !important;
+}
+
+.modal-open {
+    padding-right: 0 !important;
+}
+
 .modal {
-    padding: 0;
+    padding-right: 0px !important;
 }
