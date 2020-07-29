@@ -124,7 +124,7 @@ hr {
 @media (max-width: 992px) {
     .carousel-item img {
         width: 18em !important;
-        height: 16em !important;
+        height: 14em !important;
         max-height: 100%;
         max-width: 100%;
         object-fit: cover;
