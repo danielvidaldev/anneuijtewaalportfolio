@@ -69,6 +69,13 @@ hr {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     object-fit: cover;
 }
+
+@media (max-width: 992px) {
+    .galleryImage {
+        height: 20em;
+    }
+}
+
 .galleryImage:hover {
     opacity: .5;
     -webkit-transform: scale(1.01);
@@ -114,9 +121,10 @@ hr {
     height: 40em;
 }
 
+
 @media (max-width: 992px) {
     .carousel-item img {
-        width: 19em !important;
+        width: 28em !important;
         height: 17em !important;
         max-height: 100%;
         max-width: 100%;
@@ -126,10 +134,16 @@ hr {
 
 @media (max-width: 992px) {
     .modal-content {
-        width: 20em !important;
+        width: 30em !important;
         height: 28em !important;
         max-width: 100%; 
         max-height: 80%;
+    }
+}
+
+@media (max-width: 992px) {
+    .modal .modal-dialog .modal-content .modal-header {
+        padding-right: 0 !important;
     }
 }
 
@@ -196,16 +210,4 @@ footer a {
 
 .modal-header hr {
     margin-left: 0;
-}
-
-.show {
-    padding-right: 0 !important;
-}
-
-.modal-open {
-    padding-right: 0 !important;
-}
-
-.modal {
-    padding-right: 0px !important;
 }
