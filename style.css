@@ -111,13 +111,20 @@ img {
     display: flex;
     align-items: center;
 }
-
+  
 .modal-content {
     margin: 0 auto;
 }
 
 .carousel-item img {
     object-fit: contain;
+    height: 44em !important;
+}
+
+@media (max-width: 992px) {
+    .carousel-item img {
+        height: 28em !important;
+    }
 }
 
 #about {
@@ -178,20 +185,9 @@ footer a {
 }
 
 .modal-header {
-    display: block;
+    display: flex;
 }
 
 .modal-header hr {
     margin-left: 0;
-}
-
-.modal.show {
-    display: flex !important;
-    justify-content: center;
-}
-
-.modal-caption {
-    max-width: 100%;
-    max-height: 100%;
-    align-self: center;
 }
