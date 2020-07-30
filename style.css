@@ -148,10 +148,10 @@ hr {
 @media (max-width: 992px) {
     .modal-content {
         width: 20em !important;
-        height: 36em !important;
+        height: 40em !important;
         max-width: 100%; 
         max-height: 80%;
-        left: 2%;
+        left: 0.5%;
     }
 }
 
